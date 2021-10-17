@@ -1,0 +1,64 @@
+body {
+    width:max-content;
+    font-family: Tahoma, Verdana, Geneva, sans-serif; 
+    font-size: larger;
+}
+
+main {
+    margin: 20px 20px 50px; 
+    border: 7.5px ridge bisque ;
+}
+
+header{}
+header:hover{background-color: lightgreen;
+}
+
+h1{ 
+    padding: 0px 10px;  
+    border: 5px black  outset;
+    font-size: 14px;}
+
+p {
+    line-height: 0.2; 
+    padding:0px 15px;        
+}
+
+li > a {
+    text-decoration: none;    
+}
+
+.opvallend {color: red;}
+
+#EersteSectie{ 
+    margin-bottom: 5px;
+}
+
+.TussenSectie{
+    margin: 20px 0px 20px;    
+}
+
+.AutoMargin {
+    width: 200px;
+    margin: 0 auto;
+}
+
+nav ul li {display: inline;}
+
+#LaatsteSectie {
+    margin-top: 5px;
+    background-color:lightcyan;     
+    border:5px solid greenyellow;
+    border-radius: 5px;}
+
+img {padding: 0px 15px}
+img:hover {
+    border: 10px dashed red;
+    background-color:blue;
+    padding: 0px 15px;}
+
+figcaption {
+    line-height: 0.2; 
+    text-align: center;    
+    padding-top: 5px ;            
+}
+
